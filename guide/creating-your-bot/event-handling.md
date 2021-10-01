@@ -3,7 +3,7 @@
 Node.js uses an event-driven architecture, making it possible to execute code when a specific event occurs. The discord.js library takes full advantage of this. You can visit the <DocsLink path="class/Client" /> documentation to see the full list of events.
 
 Here's the base code we'll be using:
-
+.
 ```js
 const { Client, Intents } = require('discord.js');
 const { token } = require('./config.json');
